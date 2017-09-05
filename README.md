@@ -19,9 +19,10 @@ Repository for experimenting with different CTC based model designs for ASR.
 
 ## Setup
 1. Recommended > use virtualenv installed with python2.7 (or 3.x untested)
-2. `git clone https://github.com/mlrobsmt/kDS2`
+2. `git clone https://github.com/mlrobsmt/KerasDeepSpeech`
 3. `pip install -r requirements.txt`
 4. Get the data using the data download scripts in the download folder, LibriSpeech is a good example.
+5. Download the language model (large file) run `cd ./lm/ && ./get_lm.sh` 
 
 ## Running
 1. To Train, run `python run-train.py train_files <csvfile> valid_files <csvfile>` (see file for complete arguments list)
