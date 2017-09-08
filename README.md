@@ -1,5 +1,5 @@
 # Keras DeepSpeech
-
+[![Build Status](https://travis-ci.org/mlrobsmt/KerasDeepSpeech.svg?branch=master)](https://travis-ci.org/mlrobsmt/KerasDeepSpeech)
 <!-- [![Build Status](https://travis-ci.com/rmsmith88/darkspeech.svg?token=y6aR2NnYkpGbbYKLNpwK&branch=master)](https://travis-ci.com/rmsmith88/darkspeech) -->
 
 
@@ -22,7 +22,7 @@ Repository for experimenting with different CTC based model designs for ASR.
 2. `git clone https://github.com/mlrobsmt/KerasDeepSpeech`
 3. `pip install -r requirements.txt`
 4. Get the data using the data download scripts in the download folder, LibriSpeech is a good example.
-5. Download the language model (large file) run `cd ./lm/ && ./get_lm.sh` 
+5. Download the language model (large file) run `./lm/get_lm.sh`
 
 ## Running
 1. To Train, run `python run-train.py train_files <csvfile> valid_files <csvfile>` (see file for complete arguments list)
