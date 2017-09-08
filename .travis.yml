@@ -9,8 +9,9 @@ python:
 before_install:
   - sudo apt-get -qq update
   - sudo apt-get install -y python-pyaudio python3-pyaudio libasound-dev portaudio19-dev libportaudio2 libportaudiocpp0
+  - wget https://www.dropbox.com/s/2n897gu5p3o2391/libri-timit-lm.klm --directory-prefix=./lm/
 
 install: "pip install -r requirements.txt"
 # command to run tests
 script:
-  - python run-train.py --batchsize 2
+  - python run-train.py --batchsize 2 --epochs 2
