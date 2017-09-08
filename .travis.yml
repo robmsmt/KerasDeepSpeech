@@ -13,4 +13,4 @@ before_install:
 install: "pip install -r requirements.txt"
 # command to run tests
 script:
-  - python run-train.py batch_size 2
+  - python run-train.py --batchsize 2
