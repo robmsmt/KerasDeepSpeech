@@ -5,7 +5,7 @@ h5py==2.7.1
 kenlm==0.0.0
 Keras==2.0.4
 mock==2.0.0
-numpy==1.13.1
+numpy
 pandas==0.20.3
 pbr==3.1.1
 protobuf==3.4.0
