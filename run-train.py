@@ -249,7 +249,7 @@ if __name__ == '__main__':
                        help='If true, we sort utterances by their length in the first epoch')
     parser.add_argument('--epochs', type=int, default=20,
                        help='Number of epochs to train the model')
-    parser.add_argument('--batchsize', type=int, default=24,
+    parser.add_argument('--batchsize', type=int, default=2,
                        help='batch_size used to train the model')
 
     args = parser.parse_args()
@@ -259,14 +259,17 @@ if __name__ == '__main__':
 
     #detect user here too
     if args.train_files=="" and args.valid_files=="":
-        # assume defaults if not specified
-        timit_path = "./data/LDC/timit/"
-        libri_path = "./data/LibriSpeech/"
-        ted_path = "./data/ted/"
-        own_path = "./data/own/"
+        # if paths to file not specified, assume testing
+        # timit_path = "./data/LDC/timit/"
+        # libri_path = "./data/LibriSpeech/"
+        # ted_path = "./data/ted/"
+        # own_path = "./data/own/"
+        test_path = "./data/ldc93s1/"
         sep = ","
-        args.train_files = libri_path + "librivox-train-clean-100.csv"
-        args.valid_files = libri_path + "librivox-test-clean.csv"
+        args.train_files = test_path + "ldc93s1.csv"
+        args.valid_files = test_path + "ldc93s1.csv"
+        #args.train_files = libri_path + "librivox-train-clean-100.csv"
+        #args.valid_files = libri_path + "librivox-test-clean.csv"
 
 
     assert(keras.__version__ == "2.0.4") ## CoreML is strict

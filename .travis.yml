@@ -1,0 +1,9 @@
+language: python
+python:
+#only supporting python 2 at the moment due to COREML
+  - "2.6"
+  - "2.7"
+# command to install dependencies
+install: "pip install -r requirements.txt"
+# command to run tests
+script: run-train
