@@ -9,7 +9,7 @@ Repository for experimenting with different CTC based model designs for ASR.
 
 ## Overview
 
-![Overview kDS](https://raw.githubusercontent.com/mlrobsmt/KerasDeepSpeech/master/preproc/overview-count.gif "Overview of kDS and batchgen")
+![Overview kDS](https://raw.githubusercontent.com/mlrobsmt/KerasDeepSpeech/master/preproc/overview.gif "Overview of kDS and batchgen")
 
 
 <!-- ## Existing Architectures - model.py -->
