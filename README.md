@@ -7,6 +7,10 @@
 
 Repository for experimenting with different CTC based model designs for ASR.
 
+## Overview
+
+![Overview kDS](https://github.com/mlrobsmt/KerasDeepSpeech/preproc/overview-count.gif "Overview of kDS and batchgen")
+
 
 <!-- ## Existing Architectures - model.py -->
 <!-- 1. Arch 0 - DS1 (3FC+BLSTM+SOFTMAX) with dropout -->
