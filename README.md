@@ -38,8 +38,8 @@ Repository for experimenting with different CTC based model designs for ASR. Sup
 <!-- See iOS/Android folders -->
 
 ## CREDIT
-1. Mozilla ![DeepSpeech](https://github.com/mozilla/DeepSpeech)
-2. Baidu ![DS1](https://arxiv.org/abs/1412.5567) & ![DS2](https://arxiv.org/abs/1512.02595) papers
+1. Mozilla [DeepSpeech](https://github.com/mozilla/DeepSpeech)
+2. Baidu [DS1](https://arxiv.org/abs/1412.5567) & [DS2](https://arxiv.org/abs/1512.02595) papers
 
 <!-- ## Help -->
 <!-- tbc -->
