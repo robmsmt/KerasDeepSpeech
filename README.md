@@ -1,7 +1,5 @@
 # Keras DeepSpeech
-[![Build Status](https://travis-ci.org/mlrobsmt/KerasDeepSpeech.svg?branch=master)](https://travis-ci.org/mlrobsmt/KerasDeepSpeech)
-<!-- [![Build Status](https://travis-ci.com/rmsmith88/darkspeech.svg?token=y6aR2NnYkpGbbYKLNpwK&branch=master)](https://travis-ci.com/rmsmith88/darkspeech) -->
-
+[![Build Status](https://travis-ci.org/robmsmt/KerasDeepSpeech.svg?branch=master)](https://travis-ci.org/robmsmt/KerasDeepSpeech)
 
 <!-- ___ -->
 
@@ -10,7 +8,7 @@ Repository for experimenting with different CTC based model designs for ASR. Sup
 ## OVERVIEW
 
 <!-- ![Overview kDS](https://raw.githubusercontent.com/mlrobsmt/KerasDeepSpeech/master/preproc/overview.gif "Overview of kDS and batchgen") -->
-<img src="https://raw.githubusercontent.com/mlrobsmt/KerasDeepSpeech/master/preproc/overview.gif" align="center" height="371" width="453">
+<img src="https://raw.githubusercontent.com/robmsmt/KerasDeepSpeech/master/preproc/overview.gif" align="center" height="371" width="453">
 
 <!-- ## Existing Architectures - model.py -->
 <!-- 1. Arch 0 - DS1 (3FC+BLSTM+SOFTMAX) with dropout -->
@@ -27,7 +25,7 @@ Repository for experimenting with different CTC based model designs for ASR. Sup
 1. Recommended > use virtualenv installed with python2.7 (3.x untested and will not work with Core ML)
 2. `git clone https://github.com/mlrobsmt/KerasDeepSpeech`
 3. `pip install -r requirements.txt`
-4. Get the data using the import/download scripts in the ![data](https://github.com/mlrobsmt/KerasDeepSpeech/tree/master/data) folder, LibriSpeech is a good example.
+4. Get the data using the import/download scripts in the ![data](https://github.com/robmsmt/KerasDeepSpeech/tree/master/data) folder, LibriSpeech is a good example.
 5. Download the language model (large file) run `./lm/get_lm.sh`
 
 ## RUN
