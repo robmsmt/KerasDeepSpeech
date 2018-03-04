@@ -23,7 +23,7 @@ Repository for experimenting with different CTC based model designs for ASR. Sup
 
 ## SETUP
 1. Recommended > use virtualenv installed with python2.7 (3.x untested and will not work with Core ML)
-2. `git clone https://github.com/mlrobsmt/KerasDeepSpeech`
+2. `git clone https://github.com/robmsmt/KerasDeepSpeech`
 3. `pip install -r requirements.txt`
 4. Get the data using the import/download scripts in the ![data](https://github.com/robmsmt/KerasDeepSpeech/tree/master/data) folder, LibriSpeech is a good example.
 5. Download the language model (large file) run `./lm/get_lm.sh`
@@ -35,9 +35,15 @@ Repository for experimenting with different CTC based model designs for ASR. Sup
 <!-- ## iOS/Android -->
 <!-- See iOS/Android folders -->
 
+
+## Contributing ##
+Have a question? Like the tool? Don't like it? Open an issue and let's talk about it! Pull requests are appreciated!
+
+
 ## CREDIT
 1. Mozilla [DeepSpeech](https://github.com/mozilla/DeepSpeech)
 2. Baidu [DS1](https://arxiv.org/abs/1412.5567) & [DS2](https://arxiv.org/abs/1512.02595) papers
 
 <!-- ## Help -->
 <!-- tbc -->
+Copyright © 2018
