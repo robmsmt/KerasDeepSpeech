@@ -35,15 +35,17 @@ Repository for experimenting with different CTC based model designs for ASR. Sup
 <!-- ## iOS/Android -->
 <!-- See iOS/Android folders -->
 
-
-## Contributing ##
-Have a question? Like the tool? Don't like it? Open an issue and let's talk about it! Pull requests are appreciated!
-
-
-## CREDIT
+## CREDIT 
 1. Mozilla [DeepSpeech](https://github.com/mozilla/DeepSpeech)
 2. Baidu [DS1](https://arxiv.org/abs/1412.5567) & [DS2](https://arxiv.org/abs/1512.02595) papers
 
 <!-- ## Help -->
 <!-- tbc -->
+
+## Licence
+The content of this project itself is licensed under the GNU General Public License.
 Copyright © 2018
+
+## Contributing ##
+Have a question? Like the tool? Don't like it? Open an issue and let's talk about it! Pull requests are appreciated!
+
