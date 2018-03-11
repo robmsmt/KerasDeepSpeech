@@ -8,8 +8,8 @@ Important once downloaded change the branch to the one you are using for the mod
 e.g. `git checkout r1.1`
 
 2. Download Android SDK (comes with studio) and NDK:
-Link
-Link
+[SDK Link](https://developer.android.com/studio/index.html)
+[NDK Link](https://developer.android.com/ndk/index.html)
 
 3. Install Bazel from here https://bazel.build/versions/master/docs/install.html
 
