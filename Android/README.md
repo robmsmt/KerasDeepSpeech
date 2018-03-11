@@ -8,8 +8,10 @@ Important once downloaded change the branch to the one you are using for the mod
 e.g. `git checkout r1.1`
 
 2. Download Android SDK (comes with studio) and NDK:
+
 [SDK Link](https://developer.android.com/studio/index.html)
 [NDK Link](https://developer.android.com/ndk/index.html)
+
 
 3. Install Bazel from here https://bazel.build/versions/master/docs/install.html
 
@@ -36,14 +38,4 @@ the file is bazel-bin/tensorflow/contrib/android/libtensorflow_inference.so make
 <!-- 6. Build java file -->
 
 These need to be copied into the [TENSORFLOW KDS DROID APP](https://github.com/robmsmt/kds2Droid)
-
-
-
-
-
-
-
-
-
-
 
