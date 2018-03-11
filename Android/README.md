@@ -1,5 +1,7 @@
 ## Tensorflow Guide
 
+### Please note: there is a problem with getting this to work on Android that I was not able to fix - this was due to the output dimension problem explained [here](https://stackoverflow.com/questions/45915517/output-dimension-issue-running-tensorflow-graph-android).
+
 
 1. Download ALL of tensorflow (you need to compile TF for your mobile)
 `git clone --recurse-submodules  https://github.com/tensorflow/tensorflow.git`
