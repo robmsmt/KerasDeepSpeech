@@ -35,7 +35,12 @@ the file is bazel-bin/tensorflow/contrib/android/libtensorflow_inference.so make
 
 <!-- 6. Build java file -->
 
-These need to be copied into the TENSORFLOW APP
+These need to be copied into the [TENSORFLOW KDS DROID APP](https://github.com/robmsmt/kds2Droid)
+
+
+
+
+
 
 
 
