@@ -162,7 +162,7 @@ class MemoryCallback(keras.callbacks.Callback):
                 my_types = muppy.filter(all_objects, Type=types.ClassType)
 
                 for t in my_types:
-                    print t
+                    print(t)
 
 
     #########################################################
