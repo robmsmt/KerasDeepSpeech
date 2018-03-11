@@ -9,8 +9,8 @@ e.g. `git checkout r1.1`
 
 2. Download Android SDK (comes with studio) and NDK:
 
-[SDK Link](https://developer.android.com/studio/index.html)
-[NDK Link](https://developer.android.com/ndk/index.html)
+- [SDK Link](https://developer.android.com/studio/index.html)
+- [NDK Link](https://developer.android.com/ndk/index.html)
 
 
 3. Install Bazel from here https://bazel.build/versions/master/docs/install.html
