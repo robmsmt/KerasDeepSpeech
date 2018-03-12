@@ -3,7 +3,7 @@
 
 <!-- ___ -->
 
-Repository for experimenting with different CTC based model designs for ASR. Supports [live recording and testing](live-rec-test.py) of speech and quickly creates customised datasets using [own-voice dataset creation scripts](data-recorder.py)!
+Repository for experimenting with different CTC based model designs for ASR. Supports [live recording and testing](data/live-rec-test.py) of speech and quickly creates customised datasets using [own-voice dataset creation scripts](data/data-recorder.py)!
 
 ## OVERVIEW
 
@@ -26,7 +26,7 @@ Repository for experimenting with different CTC based model designs for ASR. Sup
 2. `git clone https://github.com/robmsmt/KerasDeepSpeech`
 3. `pip install -r requirements.txt`
 4. Get the data using the import/download scripts in the ![data](https://github.com/robmsmt/KerasDeepSpeech/tree/master/data) folder, LibriSpeech is a good example.
-5. Download the language model (large file) run `./lm/get_lm.sh`
+5. Download the KenLM based language model (large file) run `./lm/get_lm.sh` or use [this guide](http://victor.chahuneau.fr/notes/2012/07/03/kenlm.html).
 
 ## RUN
 1. To Train, simply run `python run-train.py` In order to specify training/validation files use `python run-train.py --train_files <csvfile> --valid_files <csvfile>` (see run-train for complete arguments list)
