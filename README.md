@@ -2,17 +2,22 @@
 [![Build Status](https://travis-ci.org/robmsmt/KerasDeepSpeech.svg?branch=master)](https://travis-ci.org/robmsmt/KerasDeepSpeech)
 
 
-Note: this v2 is a WIP, we are rewriting the application to provide some new features expected in the next week! We are focusing on making this as pythonic as possible.
+*Note: this v2 is a WIP, we are rewriting the application to provide some new features expected in the next week! We are focusing on making this as pythonic as possible.*
 
 <!-- ___ -->
 
 Repository for experimenting with different CTC based model designs for ASR. Supports [live recording and testing](data/live-rec-test.py) of speech and quickly creates customised datasets using [own-voice dataset creation scripts](data/data-recorder.py)!
 
+## FEATURES
+- Simple and pythonic design
+- YAML designed models
+- Pretrained model repo
+- iOS CoreML export
+
 ## OVERVIEW
 
 <!-- ![Overview kDS](https://raw.githubusercontent.com/mlrobsmt/KerasDeepSpeech/master/preproc/overview.gif "Overview of kDS and batchgen") -->
 <img src="https://raw.githubusercontent.com/robmsmt/KerasDeepSpeech/v2/analysis/overview.png" align="center" height="371" width="453">
-<img src="https://raw.githubusercontent.com/robmsmt/KerasDeepSpeech/v2/analysis/overview2.png" align="center" height="371" width="453">
 
 <!-- ## Existing Architectures - model.py -->
 <!-- 1. Arch 0 - DS1 (3FC+BLSTM+SOFTMAX) with dropout -->
@@ -23,13 +28,6 @@ Repository for experimenting with different CTC based model designs for ASR. Sup
 <!-- 6. Arch 2 - DS2 (conv) -->
 
 <!-- ## QUICKSTART PRETRAINED MODELS -->
-
-## FEATURES
-- Simple and pythonic design
-- YAML designed models
-- Pretrained model repo
-- iOS CoreML export
-
 
 ## SETUP
 1. Recommended > use virtualenv installed with python2.7 (3.x untested and will not work with Core ML)
