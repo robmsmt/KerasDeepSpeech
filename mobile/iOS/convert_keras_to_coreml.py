@@ -1,13 +1,13 @@
 from __future__ import unicode_literals
 
 import argparse
-
-from model import *
-from utils import *
-
-import keras
-import coremltools
 import os
+
+import coremltools
+import keras
+from model import *
+
+from engine.utils import *
 
 #####################################################
 

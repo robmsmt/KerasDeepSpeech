@@ -4,10 +4,10 @@
 Archive
 *.pyc
 .~lock.*
-lm/libri-timit-lm.arpa
-lm/libri-timit-lm.klm
-lm/timit-lm.arpa
-lm/timit-lm.klm
+engine/lm/libri-timit-lm.arpa
+engine/lm/libri-timit-lm.klm
+engine/lm/timit-lm.arpa
+engine/lm/timit-lm.klm
 */.ipynb_checkpoints
 
 kDS.sh

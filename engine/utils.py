@@ -37,7 +37,7 @@ def text_to_int_sequence(text):
 
 def int_to_text_sequence(seq):
     """ Use a index map and convert int to a text sequence
-        >>> from utils import int_to_text_sequence
+        >>> from engine.utils import int_to_text_sequence
         >>> a = [2,22,10,11,21,2,13,11,6,1,21,2,8,20,17]
         >>> b = int_to_text_sequence(a)
     """

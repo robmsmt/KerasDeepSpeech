@@ -1,6 +1,7 @@
-import fnmatch
 import os
+
 import pandas as pd
+
 import char_map
 from utils import text_to_int_sequence
 
@@ -142,5 +143,5 @@ def get_max_intseq(comb):
 
 def get_number_of_char_classes():
     ## TODO would be better to check with dataset (once cleaned)
-    num_classes = len(char_map.char_map)+1 ##need +1 for ctc null char +1 pad
+    num_classes = len(char_map.char_map) + 1 ##need +1 for ctc null char +1 pad
     return num_classes

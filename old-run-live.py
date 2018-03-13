@@ -14,11 +14,11 @@ import socket
 
 #####################################################
 
-from utils import *
-from generator import *
-from data import combine_all_wavs_and_trans_from_csvs
-from model import *
-from report import *
+from engine.utils import *
+from engine.generator import *
+from engine.data import combine_all_wavs_and_trans_from_csvs
+from engine.model import *
+from engine.report import *
 
 import keras
 

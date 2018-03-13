@@ -2,10 +2,7 @@
 
 '''
 
-KERAS Deep Speech - end to end speech recognition. Designed for
-use with CoreML 0.5.1 to use model on iOS
-
-see conversion scripts
+KERAS DeepSpeech - end to end speech recognition
 
 '''
 
@@ -14,19 +11,16 @@ see conversion scripts
 import argparse
 import datetime
 import os
-import socket
 
 import keras
 from keras.callbacks import TensorBoard
 from keras.optimizers import Adam, Nadam
 
-from data import combine_all_wavs_and_trans_from_csvs
-from generator import BatchGenerator
-from model import *
-from report import ReportCallback
-from utils import load_model_checkpoint, save_model, MemoryCallback
-
-#####################################################
+from engine.data import combine_all_wavs_and_trans_from_csvs
+from engine.generator import BatchGenerator
+from engine.model import *
+from engine.report import ReportCallback
+from engine.utils import load_model_checkpoint, save_model, MemoryCallback
 
 
 #######################################################
@@ -193,6 +187,7 @@ def main(args):
 
     # export to csv?
     K.clear_session()
+
 #######################################################
 
 
