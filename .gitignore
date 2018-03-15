@@ -2,6 +2,7 @@
 .idea/* 
 .DS_Store* 
 Archive
+archive
 *.pyc
 .~lock.*
 engine/lm/libri-timit-lm.arpa
