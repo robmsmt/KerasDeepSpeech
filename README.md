@@ -3,7 +3,7 @@
 
 <!-- ___ -->
 
-Repository for experimenting with different CTC based model designs for ASR. Supports [live recording and testing](live-rec-test.py) of speech and quickly creates customised datasets using [own-voice dataset creation scripts](data-recorder.py)!
+Repository for experimenting with different CTC based model designs for ASR. Supports [live recording and testing](data/live-rec-test.py) of speech and quickly creates customised datasets using [own-voice dataset creation scripts](data/data-recorder.py)!
 
 ## OVERVIEW
 
