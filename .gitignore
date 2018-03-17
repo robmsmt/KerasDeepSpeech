@@ -16,3 +16,5 @@ kDS-LOCAL.sh
 data/*
 !enron*
 !e00*
+!live-rec-test.py
+!data-recorder.py
